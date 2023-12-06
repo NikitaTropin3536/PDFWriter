@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/file_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name for file here..."
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/some_text_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="someTextFirst here..."
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/some_sext_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="someTextFirst here..."
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/generate_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Gneerate PDF"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

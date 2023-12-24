@@ -6,6 +6,7 @@
     tools:context=".activities.MainActivity">
 
     <LinearLayout
+        android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -26,10 +27,10 @@
             tools:ignore="HardcodedText" />
 
         <EditText
-            android:id="@+id/some_sext_second"
+            android:id="@+id/some_text_second"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="someTextFirst here..."
+            android:hint="someTextSecond here..."
             tools:ignore="HardcodedText" />
 
         <Button
@@ -38,6 +39,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Gneerate PDF"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/open_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Open PDF"
             android:textAllCaps="false" />
     </LinearLayout>
 </RelativeLayout>

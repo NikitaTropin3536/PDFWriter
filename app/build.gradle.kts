@@ -29,6 +29,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -42,6 +46,9 @@ dependencies {
 
     // ItextPDF
     implementation("com.itextpdf:itext-core:8.0.2")
+
+    // PDF Viewer
+    implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
 
 //    // Volley
 //    implementation("com.android.volley:volley:1.2.1")
